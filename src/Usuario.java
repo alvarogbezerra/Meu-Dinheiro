@@ -1,8 +1,8 @@
 import java.util.List;
 
 public class Usuario {
-    private String nome;
-    private String email;
+    private final String nome;
+    private final String email;
 
     List<Investimento> Investimentos;
     List<Orcamento> Orcamentos;
